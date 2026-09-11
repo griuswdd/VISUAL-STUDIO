@@ -23,7 +23,7 @@ def pregunta_3(monedas: int, estrella: bool, vidas: int) -> str:
         return "Game Over"
     elif estrella == True and monedas >= 50:
         return "Invencible y Bonus"
-    elif eazstrella:
+    elif estrella:
         return "Invencible"
     elif monedas >= 100:
         return  "Vida Extra"
@@ -44,4 +44,7 @@ def pregunta_4(cafeina: float) -> int:
         cafeina /= 2
     return  horas
 
+# CHECK ...........
 
+
+#ausilio
